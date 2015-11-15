@@ -1,0 +1,37 @@
+{
+  "name": "point-plane-distance",
+  "version": "1.0.0",
+  "description": "Computes the distance between a point and a plane",
+  "bugs": "https://github.com/maurizzzio/point-plane-distance/issues",
+  "license": "MIT",
+  "main": "index.js",
+  "author": "Mauricio Poppe <mauricio.poppe@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maurizzzio/point-plane-distance"
+  },
+  "keywords": [
+    "point-plane-distance",
+    "point",
+    "plane",
+    "distance",
+    "geometry",
+    "3d"
+  ],
+  "dependencies": {
+    "get-plane-normal": "^1.0.0",
+    "gl-vec3": "^1.0.3"
+  },
+  "devDependencies": {
+    "tape": "^4.0.1",
+    "tap-spec": "^4.0.2",
+    "gaze-cli": "^0.2.0",
+    "standard": "^4.5.0"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "node test/index.js | tap-spec",
+    "test:watch": "gaze 'npm test' 'test/**/*.js' 'lib/**/*.js' 'index.js'",
+    "start": "npm run test:watch"
+  }
+}
