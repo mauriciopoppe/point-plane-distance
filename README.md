@@ -2,7 +2,7 @@
 
 [![npm][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![js-standard-style][standard-image]][standard-url]
 
-Computes the distance between a point and a plane
+Computes the distance between a point and a plane defined with any three points lying on it
 
 ## Install
 
@@ -15,7 +15,7 @@ $ npm install --save point-plane-distance
 Let
 
 ```js
-var p = [0, 0, -5]
+var point = [0, 0, -5]
 var a = [0, 0, 0]
 var b = [1, 0, 0]
 var c = [0, 1, 0]
