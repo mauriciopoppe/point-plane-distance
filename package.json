@@ -2,13 +2,13 @@
   "name": "point-plane-distance",
   "version": "1.0.1",
   "description": "Computes the distance between a point and a plane",
-  "bugs": "https://github.com/maurizzzio/point-plane-distance/issues",
+  "bugs": "https://github.com/mauriciopoppe/point-plane-distance/issues",
   "license": "MIT",
   "main": "index.js",
-  "author": "Mauricio Poppe",
+  "author": "Mauricio Poppe (https://mauriciopoppe.com)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maurizzzio/point-plane-distance"
+    "url": "https://github.com/mauriciopoppe/point-plane-distance"
   },
   "keywords": [
     "point-plane-distance",
