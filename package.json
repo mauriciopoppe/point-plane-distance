@@ -1,6 +1,6 @@
 {
   "name": "point-plane-distance",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Computes the distance between a point and a plane",
   "bugs": "https://github.com/mauriciopoppe/point-plane-distance/issues",
   "license": "MIT",
